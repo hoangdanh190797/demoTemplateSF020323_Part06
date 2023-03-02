@@ -1,0 +1,37 @@
+.bgColor{
+    background-color: $dblue;
+    height: 720px;
+    position: relative;
+    .boxStyle{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: $gblue;
+        height: 200px;
+        width: 300px;
+        border-radius: 5%;
+        .boxContent{
+            text-align: center;
+            h3{
+                color: $ngreen;
+                font-size: 24px;
+            }
+            h2{
+                color: $lcyan;
+            }
+        }
+        .btnStyle{
+            background-color: $ngreen;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin: auto;
+            img{
+                padding-left: 25%;
+                padding-top: 25%;
+                width: 50%;
+            }
+        }
+    }
+}
